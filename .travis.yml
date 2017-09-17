@@ -3,9 +3,6 @@ jdk:
   - oraclejdk9
   - oraclejdk8
   - openjdk7
-matrix:
-  allow_failures:
-    - jdk: oraclejdk9
 before_install: .travis/before_install.sh
 script: mvn verify
 after_success: .travis/after_success.sh
