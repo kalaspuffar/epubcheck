@@ -1,5 +1,4 @@
-Start command_line test('severity_overrideMissingFile')
-ERROR(CHK-001): ./com/adobe/epubcheck/test/command_line/severity/./com/adobe/epubcheck/test/command_line/severity_overrideMissingFile.txt(-1,-1): The custom message overrides file was not found.
+Start org.w3.epubcheck.cli test('severity_usage')
 Validating using EPUB version 3.0.1 rules.
 USAGE(ACC-007): ./com/adobe/epubcheck/test/command_line/severity.epub/OPS/external_css.xhtml(-1,-1): Content Documents do not use 'epub:type' attributes for semantic inflection.
 ERROR(CSS-001): ./com/adobe/epubcheck/test/command_line/severity.epub/OPS/style_tag_css.xhtml(27,13): The 'unicode-bidi' property must not be included in an EPUB Style Sheet.
@@ -77,7 +76,7 @@ USAGE(CSS-024): ./com/adobe/epubcheck/test/command_line/severity.epub/OPS/unused
 USAGE(CSS-024): ./com/adobe/epubcheck/test/command_line/severity.epub/OPS/unused.css(66,3): CSS class Selector is not used.
 
 Check finished with errors
-Messages: 0 fatal / 6 errors / 6 warnings / 0 info / 63 usage
+Messages: 0 fatal / 5 errors / 6 warnings / 0 info / 63 usage
 
 epubcheck completed
-Completed command_line test('severity_overrideMissingFile')
+Completed command_line test('severity_usage')
